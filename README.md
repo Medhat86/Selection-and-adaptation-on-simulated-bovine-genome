@@ -1,56 +1,16 @@
-# Selection-and-adaptation-on-simulated-bovine-genome
-
-This repository houses code and data (simulated bovine genome) to identify selection on quantitative traits. In this repository, we have divided files into subdirectories as outlined below. For analyses performed using GWDG Scientific Compute Cluster, we have deposited both bash files and outputs.
-
-
 
 # <img src="https://github.com/Medhat86/Ghat/blob/master/GOE_Logo_Quer_IPC_Farbe_RGB.png" />
 
 
-# Ghat 
+# Selection-and-adaptation-on-simulated-bovine-genome
 
-Functions are provided for quantifying evolution and selection on complex traits.
-The package implements effective handling and analysis algorithms scaled for
-genome-wide data and calculates a composite statistic, denoted Ghat, which is used
-to test for selection on a trait. The package provides a number of simple examples
-for handling and analysing the genome data and visualising the output and results.
-Beissinger et al., (2018) <doi:10.1534/genetics.118.300857>
+This repository houses code and data (simulated bovine genome) to identify selection on quantitative traits. In this repository, we have divided files into sub directories as outlined below. For analyses performed using GWDG Scientific Compute Cluster, we have deposited both bash files and outputs.
 
 
-## Authors
-
-### Medhat Mahmoud*, ‡,§,1, Mila Tost*,1, ‡, Ngoc-Thuy Ha †, Henner Simianer †, ‡, and Timothy Beissinger*, ‡,1 
-
-#### *Department of Crop Science, University of Goettingen, Goettingen, Germany 
-
-#### †Department of Animal Sciences, University of Goettingen, Goettingen, Germany 
-
-#### ‡Center for Integrated Breeding Research, University of Goettingen, Goettingen, Germany
-
-#### §Creator
-#### 1Maintainer
+we generated a simulated cattle data set with divergent selection to further test and demonstrate the efficacy of Ghat. This allowed us to evaluate how the Ghat package per-forms in terms of different genetic architectures and experimental parameters, which are never perfectly known using real data. In this analysis, we assessed the impact of trait heritability (h2), sample size (n), trait polygenicity (number of QTL (nQTL)), and marker density (MD) on the performance of Ghat. 
 
 
-## Installation
-
-### Latest development build
-
-To install the latest development snapshot (see latest changes below), type the following commands into the R console:
-
-```r
-library(devtools)
-devtools::install_github("Medhat86/Ghat")
-```
-
-### Official, stable release
-
-To install the latest stable release from CRAN, type the following command into the R console:
-
-```r
-install.packages("Ghat")
-```
-
-## Documentation and examples
+## Examples
 
 
 ### Example-1 Both SNP effects and change in allele frequency are known
