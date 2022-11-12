@@ -2,12 +2,11 @@
 # <img src="https://github.com/Medhat86/Ghat/blob/master/GOE_Logo_Quer_IPC_Farbe_RGB.png" />
 
 
-# Selection-and-adaptation-on-simulated-bovine-genome
+# Selection and Adaptation on Simulated Bovine Genome
 
 This repository houses code and data (simulated bovine genome) to identify selection on quantitative traits. In this repository, we have divided files into sub directories as outlined below. For analyses performed using GWDG Scientific Compute Cluster, we have deposited both bash files and outputs.
 
-
-we generated a simulated cattle data set with divergent selection to further test and demonstrate the efficacy of Ghat. This allowed us to evaluate how the Ghat package per-forms in terms of different genetic architectures and experimental parameters, which are never perfectly known using real data. In this analysis, we assessed the impact of trait heritability (h2), sample size (n), trait polygenicity (number of QTL (nQTL)), and marker density (MD) on the performance of Ghat. 
+We generated a simulated cattle data set with divergent selection to further test and demonstrate the efficacy of Ghat. This allowed us to evaluate how the Ghat package per-forms in terms of different genetic architectures and experimental parameters, which are never perfectly known using real data. In this analysis, we assessed the impact of trait heritability (h2), sample size (n), trait polygenicity (number of QTL (nQTL)), and marker density (MD) on the performance of Ghat. 
 
 
 ## Examples
